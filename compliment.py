@@ -1,3 +1,7 @@
+"""
+Task: 1 create a "Personalised Compliment Agent" using LangGraph!
+"""
+
 from typing import Dict, TypedDict
 from langgraph.graph import StateGraph
 from IPython.display import display, Image

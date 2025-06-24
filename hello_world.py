@@ -1,3 +1,7 @@
+"""
+This is the first Agent the "Hello World Agent"
+"""
+
 from typing import Dict, TypedDict
 from langgraph.graph import StateGraph
 from IPython.display import display, Image

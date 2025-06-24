@@ -1,3 +1,13 @@
+"""
+Task: 3 
+1. Accept users's name, age and a list of thier skills.
+2. Pass the state through three nodes that:
+    * First node:   Personalizes the name field with a greeting
+    * Second Node: describes the user's age
+    * Third node: List the user's skills in for matted string
+3. The final result should be a combined message 
+"""
+
 from typing import TypedDict
 from langgraph.graph import StateGraph
 from IPython.display import display, Image

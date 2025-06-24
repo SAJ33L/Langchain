@@ -1,3 +1,7 @@
+"""
+This is the fourth agent "Conditional Agent"
+"""
+
 from typing import TypedDict
 from langgraph.graph import StateGraph, START, END
 from IPython.display import display, Image
@@ -31,7 +35,6 @@ def selection_node(state: AgentState) -> AgentState:
     """
     Decides which opereation to perform based on the 'operation' field in the state.
     """
-
     if state["operation"] == "+":
         return "addition_node"
     elif state["operation"] == "+":

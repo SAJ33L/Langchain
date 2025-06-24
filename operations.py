@@ -1,3 +1,8 @@
+"""
+Task: 2 Create a graph that will pass in a single list of integers along with a name and an operation. If the operation is a
+"+", you add the elements and if the operation is a "*", you multiply the elements, all within the same node.
+"""
+
 from typing import TypedDict, List
 from langgraph.graph import StateGraph
 from IPython.display import display, Image

@@ -1,3 +1,8 @@
+"""
+This is the third Agent the "Sequential Graph Agent"
+"""
+
+
 from typing import TypedDict
 from langgraph.graph import StateGraph
 from IPython.display import display, Image

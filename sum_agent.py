@@ -1,3 +1,7 @@
+"""
+Second example in the video
+"""
+
 from typing import TypedDict, List
 from langgraph.graph import StateGraph
 from IPython.display import display, Image
